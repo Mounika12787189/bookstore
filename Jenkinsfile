@@ -18,7 +18,7 @@ pipeline {
     }
     post {
         always {
-                emailext body: 'Hi welcome to jenkins email alerts', subject: 'email-job', to: 'mounika81234@gmail.com
+                emailext body: 'Hi welcome to jenkins email alerts', subject: 'email-job', to: 'mounika81234@gmail.com'
     }
     }
 }             
